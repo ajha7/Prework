@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-
+Note: full GIF not displayed, too long
 ![](https://i.imgur.com/nr1ci3R.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
