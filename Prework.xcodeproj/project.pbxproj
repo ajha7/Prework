@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC617134258C471900F6C40A /* person.png in Resources */ = {isa = PBXBuildFile; fileRef = FC617133258C471900F6C40A /* person.png */; };
+		FC617139258C499000F6C40A /* waiter.png in Resources */ = {isa = PBXBuildFile; fileRef = FC617138258C499000F6C40A /* waiter.png */; };
 		FCCCF061258ACEF10094102A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCCF060258ACEF10094102A /* AppDelegate.swift */; };
 		FCCCF063258ACEF10094102A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCCF062258ACEF10094102A /* SceneDelegate.swift */; };
 		FCCCF065258ACEF10094102A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCCF064258ACEF10094102A /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC617133258C471900F6C40A /* person.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person.png; sourceTree = SOURCE_ROOT; };
+		FC617138258C499000F6C40A /* waiter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = waiter.png; path = ../../waiter.png; sourceTree = "<group>"; };
 		FCCCF05D258ACEF10094102A /* Prework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCCCF060258ACEF10094102A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCCCF062258ACEF10094102A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,8 +109,10 @@
 				FCCCF062258ACEF10094102A /* SceneDelegate.swift */,
 				FCCCF064258ACEF10094102A /* ViewController.swift */,
 				FCCCF066258ACEF10094102A /* Main.storyboard */,
+				FC617138258C499000F6C40A /* waiter.png */,
 				FCCCF09C258B29590094102A /* SettingsViewController.swift */,
 				FCCCF069258ACEF40094102A /* Assets.xcassets */,
+				FC617133258C471900F6C40A /* person.png */,
 				FCCCF06B258ACEF40094102A /* LaunchScreen.storyboard */,
 				FCCCF06E258ACEF40094102A /* Info.plist */,
 			);
@@ -234,8 +240,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC617134258C471900F6C40A /* person.png in Resources */,
 				FCCCF06D258ACEF40094102A /* LaunchScreen.storyboard in Resources */,
 				FCCCF06A258ACEF40094102A /* Assets.xcassets in Resources */,
+				FC617139258C499000F6C40A /* waiter.png in Resources */,
 				FCCCF068258ACEF10094102A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -94,7 +94,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gFO-Uw-Xfo">
-                                <rect key="frame" x="281" y="380" width="45" height="21"/>
+                                <rect key="frame" x="281" y="383" width="45" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="19"/>
                                 <nil key="textColor"/>
@@ -142,6 +142,38 @@
                                     <action selector="calculateTip:" destination="BYZ-38-t0r" eventType="editingChanged" id="vYG-x7-WGo"/>
                                 </connections>
                             </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="person" translatesAutoresizingMaskIntoConstraints="NO" id="WKu-t5-zEy">
+                                <rect key="frame" x="312" y="367" width="31" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="person" translatesAutoresizingMaskIntoConstraints="NO" id="3a0-IR-heB">
+                                <rect key="frame" x="336" y="367" width="31" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="person" translatesAutoresizingMaskIntoConstraints="NO" id="Bnl-tY-TI8">
+                                <rect key="frame" x="356" y="367" width="31" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="person" translatesAutoresizingMaskIntoConstraints="NO" id="3Eb-wM-6JV">
+                                <rect key="frame" x="375" y="367" width="31" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="person" translatesAutoresizingMaskIntoConstraints="NO" id="86n-4P-Lrm">
+                                <rect key="frame" x="312" y="391" width="31" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="person" translatesAutoresizingMaskIntoConstraints="NO" id="9i5-ke-6fC">
+                                <rect key="frame" x="336" y="391" width="31" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="person" translatesAutoresizingMaskIntoConstraints="NO" id="vNA-SL-8BH">
+                                <rect key="frame" x="356" y="391" width="31" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="person" translatesAutoresizingMaskIntoConstraints="NO" id="9eD-64-iF9">
+                                <rect key="frame" x="375" y="391" width="31" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -170,6 +202,14 @@
                         <outlet property="billField" destination="fpt-85-lzx" id="3g0-SA-3hP"/>
                         <outlet property="partySizeLabel" destination="gFO-Uw-Xfo" id="jYn-vW-Gqd"/>
                         <outlet property="perPersonLabel" destination="YOY-oI-efg" id="xnG-aC-GSJ"/>
+                        <outlet property="person_1" destination="WKu-t5-zEy" id="dGY-JV-jZo"/>
+                        <outlet property="person_2" destination="3a0-IR-heB" id="bz1-he-IUk"/>
+                        <outlet property="person_3" destination="Bnl-tY-TI8" id="V0Q-WK-TsY"/>
+                        <outlet property="person_4" destination="3Eb-wM-6JV" id="Qsb-Uk-zw7"/>
+                        <outlet property="person_5" destination="86n-4P-Lrm" id="PMj-UG-7Em"/>
+                        <outlet property="person_6" destination="9i5-ke-6fC" id="L4e-S2-cxA"/>
+                        <outlet property="person_7" destination="vNA-SL-8BH" id="upI-ol-TUF"/>
+                        <outlet property="person_8" destination="9eD-64-iF9" id="X0q-Jg-75e"/>
                         <outlet property="tipControl" destination="iUo-E3-MQ3" id="MjT-Rn-0EX"/>
                         <outlet property="tipLabel" destination="Bne-ph-K3r" id="ilV-PL-RBU"/>
                         <outlet property="tipRateLabel" destination="tsB-H4-1pc" id="6Ih-js-3Aa"/>
@@ -305,6 +345,7 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="minus.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="person" width="216" height="233"/>
         <image name="plus.circle.fill" catalog="system" width="128" height="121"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
