@@ -32,7 +32,7 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 Note: full GIF not displayed, too long
 
-![](https://i.imgur.com/nr1ci3R.gif)
+![](https://i.imgur.com/rTvLlFt.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
