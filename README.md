@@ -32,7 +32,8 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 Note: full GIF not displayed, too long
 
-<img src="https://i.imgur.com/rTvLlFt.gif" width=250><br>
+![Tip Calculator](https://i.imgur.com/rTvLlFt.gif)
+<!--<img src="https://i.imgur.com/rTvLlFt.gif" width=250><br>-->
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
